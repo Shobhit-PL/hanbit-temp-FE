@@ -13,7 +13,7 @@ import { Icon } from '../shared/icons';
     </section>
 
     <section class="container section contact-grid">
-      <form class="card form" [formGroup]="form" (ngSubmit)="submit()" novalidate>
+      <!--<form class="card form" [formGroup]="form" (ngSubmit)="submit()" novalidate>
         <div class="row">
           <label>Name
             <input formControlName="name" autocomplete="name" />
@@ -52,7 +52,7 @@ import { Icon } from '../shared/icons';
         </button>
         @if (status() === 'sent') { <p class="ok" role="status">Enquiry sent. We will reply within one business day.</p> }
         @if (status() === 'error') { <p class="err" role="alert">The enquiry did not send. Check your connection and try again.</p> }
-      </form>
+      </form>-->
 
       <aside class="card info">
         <h3>Contact details</h3>

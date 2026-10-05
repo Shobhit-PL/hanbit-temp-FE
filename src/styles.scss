@@ -127,7 +127,7 @@ img { max-width: 100%; }
 
 /* Inner pages */
 .page-hero { padding: 72px 0 24px; }
-.page-hero h1 { font-size: clamp(2rem, 4.4vw, 3.1rem); max-width: 22ch; }
+.page-hero h1 { font-size: clamp(2rem, 4.4vw, 3.1rem); max-width: 100%; white-space: nowrap; }
 .steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; counter-reset: step; }
 .steps li { counter-increment: step; position: relative; padding-top: 56px; }
 .steps li::before { content: counter(step); position: absolute; top: 22px; left: 28px; width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: var(--grad); color: #fff; font: 600 .85rem var(--font-head); }
@@ -175,6 +175,7 @@ textarea { resize: vertical; }
   .nav-cta { margin: 8px 0 0; }
 }
 @media (max-width: 640px) {
+  .page-hero h1 { white-space: normal; }
   .grid-3, .grid-2, .steps, .row, .service-strip { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .cta { padding: 28px; }
