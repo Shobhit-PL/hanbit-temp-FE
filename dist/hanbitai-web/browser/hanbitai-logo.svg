@@ -1,0 +1,33 @@
+<svg width="840" height="280" viewBox="0 0 840 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HanbitAI logo</title>
+  <desc id="desc">A modern AI brand mark with a gradient icon and crisp wordmark.</desc>
+  <defs>
+    <linearGradient id="iconGrad" x1="20" y1="16" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52D6FF"/>
+      <stop offset="0.5" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="wordGrad" x1="185" y1="60" x2="620" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.52" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10 20)">
+    <rect x="0" y="0" width="150" height="150" rx="28" fill="#EAF7FF"/>
+    <rect x="10" y="10" width="130" height="130" rx="24" fill="#F8FBFF" stroke="url(#iconGrad)" stroke-width="6"/>
+    <path d="M38 115V35H54V68H96V35H112V115H96V82H54V115H38Z" fill="url(#iconGrad)"/>
+    <path d="M55 32L74 18L87 28L80 46L59 54L55 32Z" fill="#0EA5E9" opacity="0.75"/>
+    <path d="M112 75L130 61L140 74L130 103L112 115L99 100L112 75Z" fill="#4F46E5" opacity="0.8"/>
+    <path d="M28 85L16 97L28 110L41 103L38 87H28Z" fill="#8B5CF6" opacity="0.7"/>
+    <path d="M108 28L121 18L134 27L126 41L110 45L108 28Z" fill="#22D3EE" opacity="0.8"/>
+  </g>
+
+  <g transform="translate(190 44)">
+    <text x="0" y="88" font-family="Segoe UI, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-3" fill="url(#wordGrad)">Hanbit</text>
+    <text x="0" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="84" font-weight="800" letter-spacing="-3" fill="#0F172A">AI</text>
+    <rect x="2" y="185" width="334" height="4" rx="2" fill="url(#iconGrad)" opacity="0.8"/>
+    <text x="6" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.5" fill="#4B5563">AI EDUCATION. AI SERVICES. REAL IMPACT.</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+import{Gb as o,O as n,T as e}from"./chunk-F5NSXKOU.js";var i={apiUrl:"http://localhost:8000/api"};var a=class t{http=e(o);testimonials(){return this.http.get(`${i.apiUrl}/testimonials`)}sendEnquiry(r){return this.http.post(`${i.apiUrl}/enquiries`,r)}static \u0275fac=function(s){return new(s||t)};static \u0275prov=n({token:t,factory:t.\u0275fac,providedIn:"root"})};export{a};
